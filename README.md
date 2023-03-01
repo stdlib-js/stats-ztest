@@ -285,7 +285,7 @@ console.log( out.print() );
 
 ## See Also
 
--   <span class="package-name">[`@stdlib/stats/ztest2`][@stdlib/stats/ztest2]</span><span class="delimiter">: </span><span class="description">two-sample z-Test.</span>
+-   <span class="package-name">[`@stdlib/stats-ztest2`][@stdlib/stats/ztest2]</span><span class="delimiter">: </span><span class="description">two-sample z-Test.</span>
 
 </section>
 
