@@ -35,19 +35,30 @@ limitations under the License.
 
 > One-sample z-Test.
 
+<section class="installation">
 
+## Installation
+
+```bash
+npm install @stdlib/stats-ztest
+```
+
+Alternatively,
+
+-   To load the package in a website via a `script` tag without installation and bundlers, use the [ES Module][es-module] available on the [`esm` branch][esm-url].
+-   If you are using Deno, visit the [`deno` branch][deno-url].
+-   For use in Observable, or in browser/node environments, use the [Universal Module Definition (UMD)][umd] build available on the [`umd` branch][umd-url].
+
+The [branches.md][branches-url] file summarizes the available branches and displays a diagram illustrating their relationships.
+
+</section>
 
 <section class="usage">
 
 ## Usage
 
 ```javascript
-import ztest from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-ztest@deno/mod.js';
-```
-The previous example will load the latest bundled code from the deno branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/stats-ztest/tags). For example,
-
-```javascript
-import ztest from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-ztest@v0.1.0-deno/mod.js';
+var ztest = require( '@stdlib/stats-ztest' );
 ```
 
 #### ztest( x, sigma\[, opts] )
@@ -55,7 +66,7 @@ import ztest from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-ztest@v0.1.0-deno
 The function performs a one-sample z-test for the null hypothesis that the data in [array][mdn-array] or [typed array][mdn-typed-array] `x` is drawn from a normal distribution with mean zero and known standard deviation `sigma`.
 
 ```javascript
-var normal = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/random-base-normal' ).factory;
+var normal = require( '@stdlib/random-base-normal' ).factory;
 
 var rnorm = normal( 0.0, 2.0, {
     'seed': 5776
@@ -224,8 +235,8 @@ table = out.print();
 <!-- eslint no-undef: "error" -->
 
 ```javascript
-var normal = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/random-base-normal' ).factory;
-import ztest from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-ztest@deno/mod.js';
+var normal = require( '@stdlib/random-base-normal' ).factory;
+var ztest = require( '@stdlib/stats-ztest' );
 
 var rnorm;
 var arr;
@@ -300,7 +311,7 @@ console.log( out.print() );
 
 ## Notice
 
-This package is part of [stdlib][stdlib], a standard library with an emphasis on numerical and scientific computing. The library provides a collection of robust, high performance libraries for mathematics, statistics, streams, utilities, and more.
+This package is part of [stdlib][stdlib], a standard library for JavaScript and Node.js, with an emphasis on numerical and scientific computing. The library provides a collection of robust, high performance libraries for mathematics, statistics, streams, utilities, and more.
 
 For more information on the project, filing bug reports and feature requests, and guidance on how to develop [stdlib][stdlib], see the main project [repository][stdlib].
 
@@ -330,8 +341,8 @@ Copyright &copy; 2016-2023. The Stdlib [Authors][stdlib-authors].
 [npm-image]: http://img.shields.io/npm/v/@stdlib/stats-ztest.svg
 [npm-url]: https://npmjs.org/package/@stdlib/stats-ztest
 
-[test-image]: https://github.com/stdlib-js/stats-ztest/actions/workflows/test.yml/badge.svg?branch=v0.1.0
-[test-url]: https://github.com/stdlib-js/stats-ztest/actions/workflows/test.yml?query=branch:v0.1.0
+[test-image]: https://github.com/stdlib-js/stats-ztest/actions/workflows/test.yml/badge.svg?branch=main
+[test-url]: https://github.com/stdlib-js/stats-ztest/actions/workflows/test.yml?query=branch:main
 
 [coverage-image]: https://img.shields.io/codecov/c/github/stdlib-js/stats-ztest/main.svg
 [coverage-url]: https://codecov.io/github/stdlib-js/stats-ztest?branch=main
@@ -366,7 +377,7 @@ Copyright &copy; 2016-2023. The Stdlib [Authors][stdlib-authors].
 
 <!-- <related-links> -->
 
-[@stdlib/stats/ztest2]: https://github.com/stdlib-js/stats-ztest2/tree/deno
+[@stdlib/stats/ztest2]: https://github.com/stdlib-js/stats-ztest2
 
 <!-- </related-links> -->
 
