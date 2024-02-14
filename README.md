@@ -42,7 +42,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import ztest from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-ztest@esm/index.mjs';
+import ztest from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-ztest@v0.2.0-esm/index.mjs';
 ```
 
 #### ztest( x, sigma\[, opts] )
@@ -225,7 +225,7 @@ table = out.print();
 <script type="module">
 
 var normal = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/random-base-normal' ).factory;
-import ztest from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-ztest@esm/index.mjs';
+import ztest from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-ztest@v0.2.0-esm/index.mjs';
 
 var rnorm;
 var arr;
