@@ -2,9 +2,9 @@
 
 > Package changelog.
 
-<section class="release" id="unreleased">
+<section class="release" id="v0.2.2">
 
-## Unreleased (2024-08-01)
+## 0.2.2 (2024-07-28)
 
 <section class="commits">
 
@@ -12,7 +12,7 @@
 
 <details>
 
--   [`22c4d29`](https://github.com/stdlib-js/stdlib/commit/22c4d29898e2b5bb4cb071a6b7f62536027eaf28) - **docs:** remove blank line _(by Athan Reines)_
+-   [`8a7e5fb`](https://github.com/stdlib-js/stdlib/commit/8a7e5fb11dee8930ac73b69302065a701966146a) - **chore:** address lint errors _(by Philipp Burckhardt)_
 
 </details>
 
@@ -26,21 +26,11 @@
 
 A total of 1 person contributed to this release. Thank you to this contributor:
 
--   Athan Reines
+-   Philipp Burckhardt
 
 </section>
 
 <!-- /.contributors -->
-
-</section>
-
-<!-- /.release -->
-
-<section class="release" id="v0.2.2">
-
-## 0.2.2 (2024-07-28)
-
-No changes reported for this release.
 
 </section>
 
@@ -60,7 +50,31 @@ No changes reported for this release.
 
 ## 0.2.0 (2024-02-14)
 
-No changes reported for this release.
+<section class="commits">
+
+### Commits
+
+<details>
+
+-   [`453dd85`](https://github.com/stdlib-js/stdlib/commit/453dd85b5dd186d2b4d458256fe84906e1503fe2) - **build:** remove tslint directives _(by Philipp Burckhardt)_
+
+</details>
+
+</section>
+
+<!-- /.commits -->
+
+<section class="contributors">
+
+### Contributors
+
+A total of 1 person contributed to this release. Thank you to this contributor:
+
+-   Philipp Burckhardt
+
+</section>
+
+<!-- /.contributors -->
 
 </section>
 
@@ -70,7 +84,55 @@ No changes reported for this release.
 
 ## 0.1.0 (2023-09-24)
 
-No changes reported for this release.
+<section class="features">
+
+### Features
+
+-   [`ca91187`](https://github.com/stdlib-js/stdlib/commit/ca9118749c1e8f3ad1f722ef69e3dc602e57b6c7) - update minimum TypeScript version
+
+</section>
+
+<!-- /.features -->
+
+<section class="breaking-changes">
+
+### BREAKING CHANGES
+
+-   [`ca91187`](https://github.com/stdlib-js/stdlib/commit/ca9118749c1e8f3ad1f722ef69e3dc602e57b6c7): update minimum TypeScript version
+-   [`ca91187`](https://github.com/stdlib-js/stdlib/commit/ca9118749c1e8f3ad1f722ef69e3dc602e57b6c7): update minimum TypeScript version to 4.1 
+
+    -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
+
+</section>
+
+<!-- /.breaking-changes -->
+
+<section class="commits">
+
+### Commits
+
+<details>
+
+-   [`ca91187`](https://github.com/stdlib-js/stdlib/commit/ca9118749c1e8f3ad1f722ef69e3dc602e57b6c7) - **feat:** update minimum TypeScript version _(by Philipp Burckhardt)_
+-   [`55866ea`](https://github.com/stdlib-js/stdlib/commit/55866ea8ef1282528b839fd9ce9c43c6a80056f8) - **test:** use strictEqual checks _(by Philipp Burckhardt)_
+
+</details>
+
+</section>
+
+<!-- /.commits -->
+
+<section class="contributors">
+
+### Contributors
+
+A total of 1 person contributed to this release. Thank you to this contributor:
+
+-   Philipp Burckhardt
+
+</section>
+
+<!-- /.contributors -->
 
 </section>
 
