@@ -42,6 +42,11 @@ limitations under the License.
 ## Usage
 
 ```javascript
+import ztest from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-ztest@deno/mod.js';
+```
+The previous example will load the latest bundled code from the deno branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/stats-ztest/tags). For example,
+
+```javascript
 import ztest from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-ztest@v0.2.3-deno/mod.js';
 ```
 
@@ -205,7 +210,7 @@ table = out.print();
 
 ```javascript
 import normal from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-array-normal@deno/mod.js';
-import ztest from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-ztest@v0.2.3-deno/mod.js';
+import ztest from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-ztest@deno/mod.js';
 
 // Create an array of random numbers:
 var arr = normal( 500, 5.0, 4.0 );
